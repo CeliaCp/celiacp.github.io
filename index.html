@@ -2,22 +2,107 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Portafolio</title>
-    <style>
-        body{
-            color: #5F9EA0;
-            background-color: #F0F8FF;
-           }
-    </style>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     
+     <link rel="shortcut icon" href="https://www.cvwizard.es/favicon-512.png" type="image/x-icon">
+     <!-- Importamos hoja de estilos de Bootstrap CDN -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+     <!-- Hoja de Fontawesome v.6.4 -->
+     <link rel="stylesheet" href="all.css">
+     <title>Celia Cid Parrilla - Full-stack Developer</title>
 </head>
-<body style="padding: 30px;">
-    <h1>portafolio</h1>
-   
-<footer style="background-color: gray;color: black;" >
+<body>
+    <!-- Container principal -->
+    <div class="container">
+        <!-- Nombre -->
+        <div class="row py-3 px-3">
+          <p class="h1 mb-0">Celia Cid</p>
+          <small>Full-stack Developer · Emprendedora</small>
+        </div>
+        <!-- Container para dos columnas -->
+        <div class="row p-1">
+          <!-- Container de secciones Perfil, Experiencia, etc... -->
+          <div class="col-9 p-3">
+            <!-- Perfil -->
+            <div class="p-3">
+              <h2 class="d-inline-block fs-4"><i class="fa-solid fa-user"></i> Perfil</h2>
+              <div class="ps-4">
+                <p class="ps-3">Mi objetivo es fusionar mis habilidades técnicas con mi creatividad para construir experiencias digitales. </p>
+                <p class="ps-3">A través de mi dominio en el desarrollo de aplicaciones y mi conocimiento en diseño de interfaces, estoy comprometida en ofrecer soluciones completas y atractivas, además me encanta encontrar el equilibrio perfecto entre la funcionalidad y la estética en mis proyectos.
+              </div>
+            </div>
+            <!-- Experiencia -->
+            <div class="p-3">
+              <h2 class="d-inline-block fs-4 ps-1"><i class="fa-solid fa-suitcase"></i> Experiencia:</h2>
 
-Pues cosas
+            <ul class="list-unstyled ps-3">
+              <li><span class="text-primary fw-bold">"AMED+" </span>Web </li>
+                <p class="ps-4">Colaboré en la creación de una landing page para la asociación AMED+ dedicada al empleo para adultos. Participé en el diseño y desarrollo, utilizando HTML, CSS, Bootstrap y WordPress. Además, adquirí experiencia en la colaboración con un equipo multidisciplinario y en la implementación de prácticas de diseño centradas en el usuario.
+                </p>
+              <li><span class="text-primary fw-bold">"La senda"</span> Web </li>
+                <p class="ps-4">Participé en el concurso, quedando en el primer puesto, a la excelencia educativa presentando "DC SCRAPS", un proyecto colaborativo entre estudiantes de Web y community manager y pilotaje de drones para el creación de web y desarrollo de redes en conjunto con preotocolos de rescate de animales. 
+                </p>
+            </ul>
+              </div>
+            <!-- Más secciones -->
+            <div class="">
+              <h2 class="d-inline-block fs-4 ps-1"><i class="fa-solid fa-graduation-cap"></i> Educación</h2>
+              <h3 class="ps-3 fs-6 mb-0">Itinerario Community manager y posicionamiento web</h3>
+            <p class="ps-3 fw-light text-muted mb-0" style="font-size: 0.8rem;">2018-2019</p>
 
-</footer>
+            <!-- Espacio en blanco "ninja" -->
+            <div>&nbsp;</div>
 
+            <!-- Educación #2 -->
+            <h3 class="ps-3 fs-6 mb-0">Certificado de profesionalidad de rogramación de sistemas informáticos</h3>
+            <p class="ps-3 fw-light text-muted mb-0" style="font-size: 0.8rem;">Abril 2023 - Presente</p>
+            </div>
+          </div>
+          <!-- Sidebar derecho -->
+          <div class="col-3 py-3 ">
+            
+            <h2 class="fs-6 mb-1">Detalles</h2>
+            <p class="my-0"><i class="fa-solid fa-location-pin"></i> &nbsp;Madrid</p>
+            <p class="my-0"><i class="fa-solid fa-globe"></i> España</p>
+            <a class="d-block text-decoration-none text-dark" href="tel:+34123456789"><i class="fa-solid fa-phone"></i> +34 654643997</a>
+            <a class="d-block text-decoration-none text-dark" href="mailto:pepe@larana.frog"><i class="fa-solid fa-envelope"></i> cidcelia7@gmail.com</a>
+          <div>&nbsp;</div>
+            <h2 class="fs-6 mb-1 ">Redes Sociales</h2>
+            <a class="d-block text-decoration-none text-dark" href="https://github.com/pepe-croak" target="_blank"><i class="fa-brands fa-github"></i> @pepe-croak</a>
+            <a class="d-block text-decoration-none text-dark" href="https://www.linkedin.com/in/pepe-croak.inc" target="_blank"><i class="fa-brands fa-linkedin"></i> @pepe-croak.inc</a>
+          <div>&nbsp;</div>
+            <h2 class="fs-6 mb-1 ">Idiomas</h2>
+            <p class="mb-1">Español</p>
+            <div class="progress" style="height: 0.65rem;">
+              <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="70"></div>
+            </div>
+            <!-- Para cambiar el porcentaje en progress el width % y el ariavluenow deben ser iguales en número -->
+            <p class="mb-1">Inglés</p>
+            <div class="progress" style="height: 0.65rem;">
+              <div class="progress-bar" role="progressbar" style="width: 45%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="70"></div>
+            </div>
+          <div>&nbsp;</div>
+            <h2 class="fs-6 mb-1 ">Tech stack</h2> 
+              <ul class="ps-3 list-unstyled d-flex row justify-content-center gap-1">
+                <li class="mb-2 badge border border-secondary text-primary col-sm-5 ">HTML 5</li>
+                <li class="mb-2 badge border border-secondary text-primary col-sm-5 ">CSS 3</li>
+                <li class="mb-2 badge border border-secondary text-primary col-sm-5 ">Javascript</li>
+                <li class="mb-2 badge border border-secondary text-primary col-sm-5 ">MySQL 8</li>
+                <li class="mb-2 badge border border-secondary text-primary col-sm-5 ">Bootstrap +5</li>
+                <li class="mb-2 badge border border-secondary text-primary col-sm-5">PHP 8</li>
+              </ul>
+            <h2 class="fs-6 mb-1 ">Herramientas</h2>
+              <ul class="ps-3 list-unstyled d-flex row justify-content-center gap-1">
+                <li class="mb-2 badge border border-primary text-secondary col-sm-5 ">Visual Code</li>
+                <li class="mb-2 badge border border-primary text-secondary col-sm-5 ">Git</li>
+                <li class="mb-2 badge border border-primary text-secondary col-sm-5 ">PhpMyAdmin</li>
+                <li class="mb-2 badge border border-primary text-secondary col-sm-5">XAMPP</li>
+              </ul>
+              
+          </div>
+        </div>
+    
 </body>
 </html>
+
